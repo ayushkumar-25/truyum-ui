@@ -27,7 +27,8 @@
         <form name="edit-menu" onsubmit="return validation();">
             <div id="enter-item-name">
                 <div><label for="item-name">Name</label></div>
-                <div><input type="text" id="item-name" name="item-name" placeholder="enter item name" required></div>
+                <div><input type="text" id="item-name" name="item-name" placeholder="Enter item name" minlength="2"
+                        maxlength="65" required></div>
                 <div id="name-error"></div>
             </div>
 
@@ -40,7 +41,7 @@
                 </tr>
 
                 <tr>
-                    <td><input type="text" id="rs" name="rs" required></td>
+                    <td><input type="number" id="rs" name="rs" required></td>
                     <td>
                         <input type="radio" id="active-yes" value="yes" name="active">
                         <label for="active-yes">Yes</label>
