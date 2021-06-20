@@ -96,3 +96,18 @@ footer {
     font-size: 20px;
     text-align: center;
 }
+
+table, table th, table td {
+    padding: 10px;
+    text-align: center;
+}
+
+table {
+    margin-left: 5em;
+    font-size: 18px;
+}
+
+.first-column {
+    text-align: left;
+    padding-right: 19em;
+}
