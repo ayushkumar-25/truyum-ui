@@ -111,3 +111,10 @@ table {
     text-align: left;
     padding-right: 19em;
 }
+
+#no-items-message{
+    color: gray;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 5em;
+}
