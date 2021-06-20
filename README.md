@@ -6,3 +6,4 @@
 - [menu-item-list-customer-notification](https://ayushkumar-25.github.io/truyum-ui/menu-item-list-customer-notification.html)
 - [cart](https://ayushkumar-25.github.io/truyum-ui/cart.html)
 - [cart-empty](https://ayushkumar-25.github.io/truyum-ui/cart-empty.html)
+- [cart-notification](https://ayushkumar-25.github.io/truyum-ui/cart-notification.html)
