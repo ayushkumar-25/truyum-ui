@@ -5,3 +5,4 @@
 - [edit-menu-item-status](https://ayushkumar-25.github.io/truyum-ui/edit-menu-item-status.html)
 - [menu-item-list-customer-notification](https://ayushkumar-25.github.io/truyum-ui/menu-item-list-customer-notification.html)
 - [cart](https://ayushkumar-25.github.io/truyum-ui/cart.html)
+- [cart-empty](https://ayushkumar-25.github.io/truyum-ui/cart-empty.html)
