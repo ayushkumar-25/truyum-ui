@@ -32,9 +32,12 @@
     <!-- specific items -->
     <form onsubmit="return checkValidation()">
         <div>
-            <div id="title-label" class="edit-menu-column"><label for="title">Name</label></div>
-            <div class="edit-menu-column"><input type="text" id="title" name="title" placeholder="Sandwich"
-                    minlength="2" maxlength="65" required></div>
+            <div id="title-label" class="edit-menu-column">
+                <label for="title">Name</label>
+            </div>
+            <div class="edit-menu-column">
+                <input type="text" id="title" name="title" placeholder="Sandwich" size="80">
+            </div>
         </div>
 
         <table id="edit-menu-table">
@@ -46,7 +49,7 @@
             </tr>
 
             <tr>
-                <td><input type="number" id="price" name="price" required></td>
+                <td><input type="number" id="price" name="price"></td>
                 <td>
                     <input type="radio" id="inStock-yes" value="yes" name="inStock">
                     <label for="inStock-yes">Yes</label>
