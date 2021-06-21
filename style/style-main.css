@@ -122,3 +122,32 @@ table {
     font-size: 20px;
     margin-left: 5em;
 }
+
+/* edit-menu-item */
+
+.edit-menu-column {
+    margin-left: 110px;
+}
+
+#edit-menu-table th, #edit-menu-table td {
+    text-align: left;
+}
+
+#submit {
+    background-color: #305496;
+    color: #ffffff;
+    margin-left: 8em;
+    padding: 10px;
+    margin-top: 20px;
+    width: 8em;
+}
+
+#edit-menu-table th {
+    color: #5f5f5f;
+}
+
+#title-label, #freeDelivery-label {
+    color: #5f5f5f;
+    font-weight: bolder;
+    font-size: 18px;
+}
