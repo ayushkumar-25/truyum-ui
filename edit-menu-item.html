@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style-main.css">
+    <script src="js/script.js"></script>
     <title>edit-menu-item</title>
 </head>
 
@@ -29,7 +30,7 @@
     </footer>
 
     <!-- specific items -->
-    <form>
+    <form onsubmit="return checkValidation()">
         <div>
             <div id="title-label" class="edit-menu-column"><label for="title">Name</label></div>
             <div class="edit-menu-column"><input type="text" id="title" name="title" placeholder="Sandwich"
