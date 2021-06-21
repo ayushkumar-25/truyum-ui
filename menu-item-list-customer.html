@@ -1,67 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/style.css">
-    <title>item-list-customer</title>
+    <link rel="stylesheet" href="style/style-main.css">
+    <title>menu-item-list-customer</title>
 </head>
-
 <body>
+    <!-- common items - header, footer, title -->
     <header>
-        <div class="header-container">
-            <span id="tru">truYum</span>
-            <img id="img" src="images/logo.png" alt="truYum-img">
-            <a href="#" id="cart">Cart</a>
-            <a href="menu-item-list-customer.html" id="menu">Menu</a>
-        </div>
-
-
+        <nav>
+            <ul>
+                <li><a id="home-text" href="#">truYum</a></li>
+                <li><img id="logo" src="images/logo.png" alt="img" height="40px" width="40px"></li>
+                <li><a id="cart" href="#">Cart</a></li>
+                <li><a id="menu" href="#">Menu</a></li>
+            </ul>
+        </nav>
     </header>
-    <section>
-        <div id="menu-item">
-            <h2>Menu Items</h2>
-        </div>
-        <br>
-        <div>
-            <table class="center">
-                <tr>
-                    <th class="column-first">Name</th>
-                    <th>Free Delivery</th>
-                    <th>Price</th>
-                    <th>Category</th>
-                    <th>Action</th>
-                </tr>
-                <tr>
-                    <td class="column-first">Sandwich</td>
-                    <td>Yes</td>
-                    <td>Rs. 99.00</td>
-                    <td>Main Course</td>
-                    <td><a href="">Add to Cart</a></td>
-                </tr>
-                <tr>
-                    <td class="column-first">Burger</td>
-                    <td>No</td>
-                    <td>Rs. 129.00</td>
-                    <td>Main Course</td>
-                    <td><a href="">Add to Cart</a></td>
-                </tr>
-                <tr>
-                    <td class="column-first">Pizza</td>
-                    <td>No</td>
-                    <td>Rs. 149.00</td>
-                    <td>Main Course</td>
-                    <td><a href="">Add to Cart</a></td>
-                </tr>
-            </table>
-        </div>
-    </section>
+    <div id="page-title">
+        <p>Menu Items</p>
+    </div>
     <footer>
-        <p class="footer">Copyright &copy; 2021</p>
+        <p class="footer">Copyright &copy 2021</p>
         <p class="footer">Ayush Kumar</p>
     </footer>
-</body>
 
+    <!-- specific items -->
+</body>
 </html>
