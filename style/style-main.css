@@ -112,7 +112,11 @@ table {
     padding-right: 19em;
 }
 
-#no-items-message{
+.price-column {
+    text-align: right;
+}
+
+#no-items-message {
     color: gray;
     font-weight: bold;
     font-size: 20px;
