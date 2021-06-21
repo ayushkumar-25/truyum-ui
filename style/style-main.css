@@ -153,3 +153,7 @@ table {
     font-weight: bolder;
     font-size: 18px;
 }
+
+#price {
+    text-align: right;
+}
