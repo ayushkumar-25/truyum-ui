@@ -2,6 +2,7 @@ function checkValidation() {
     var title = document.getElementById("title").value.trim();
     var price = document.getElementById("price").value.trim();
     var dateOfLaunch = document.getElementById("dateOfLaunch").value;
+    var inStock = document.getElementsByName("inStock");
 
     // validation check for title-name
     if (title == "") {
@@ -20,6 +21,18 @@ function checkValidation() {
     }
     if (!price.match(/^\d+$/)) {
         alert("Price has to be a number.");
+        return false;
+    }
+
+    // validation check for inStock
+    isChecked = false;
+    for (let i = 0; i < inStock.length; i++) {
+        if (inStock[i].checked == true) {
+            isChecked = true;
+        }
+    }
+    if (isChecked == false) {
+        alert("In Stock status is required!");
         return false;
     }
 
