@@ -97,6 +97,8 @@ footer {
     text-align: center;
 }
 
+/* commom table stylings starts here*/
+
 table, table th, table td {
     padding: 10px;
     text-align: center;
