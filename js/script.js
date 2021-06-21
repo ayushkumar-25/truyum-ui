@@ -20,7 +20,7 @@ function checkValidation() {
         return false;
     }
     if (!price.match(/^\d+$/)) {
-        alert("Price has to be a number.");
+        alert("Price has to be a number!");
         return false;
     }
 
@@ -38,7 +38,7 @@ function checkValidation() {
 
     // validation check for date-of-launch
     if (dateOfLaunch == "") {
-        alert("Date is required");
+        alert("Date is required!");
         return false;
     }
 
